@@ -1,0 +1,25 @@
+/* all odd numbered elements. a light red/pink background, and a list of fonts containing `Verdana` and 
+`DejaVu Sans` with `sans-serif` as a fallback */
+
+:nth-child(odd) {
+    font-family: "Verdana", "DejaVu Sans", "sans-serif";
+    background-color: #eda8d2;
+    font-size 24px;
+}
+
+/* blue text and a font size of 36px */
+
+div:number-2 {
+    color: #2f4ced;
+    font-size: 36px;
+}
+
+/* in addition to the styles for all odd numbered elements, add a font size of 24px */
+
+/* a light green background, a font size of 24px, and bold */
+.number-5 {
+    background-color: #a6edb3;
+    font-size: 24px;
+    font-weight: bold;
+
+}
